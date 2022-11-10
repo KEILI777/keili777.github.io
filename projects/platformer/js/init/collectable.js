@@ -38,9 +38,10 @@
     ////////////////////////////////////////////////////////////////////////
     // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
 
-    createPlatform(400, 460);
-    createPlatform(100, 300, 0.5)
-    createPlatform(700, 200, 0.3, 10)
+    createCollectable(type.steve, 200,125,6, 0.7);
+    createCollectable(type.kennedi, 250,200, 9.2);
+    createCollectable(type.steve, 300,500, 8.4);
+    createCollectable(type.kennedi, 600,400, 2.3);
 
     // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////
